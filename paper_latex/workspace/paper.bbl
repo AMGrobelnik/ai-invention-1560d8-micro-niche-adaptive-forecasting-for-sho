@@ -1,0 +1,48 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Eight(2023)]{article8}
+Author Eight.
+\newblock Title of paper eight.
+\newblock \emph{Journal of Research}, 4:\penalty0 11--20, 2023.
+
+\bibitem[Five(2022)]{article5}
+Author Five.
+\newblock Title of paper five.
+\newblock \emph{Journal of Research}, 3:\penalty0 1--10, 2022.
+
+\bibitem[Four(2021)]{article4}
+Author Four.
+\newblock Title of paper four.
+\newblock \emph{Journal of Research}, 2:\penalty0 11--20, 2021.
+
+\bibitem[One(2020)]{article1}
+Author One.
+\newblock Title of paper one.
+\newblock \emph{Journal of Research}, 1:\penalty0 1--10, 2020.
+
+\bibitem[Seven(2023)]{article7}
+Author Seven.
+\newblock Title of paper seven.
+\newblock \emph{Journal of Research}, 4:\penalty0 1--10, 2023.
+
+\bibitem[Six(2022)]{article6}
+Author Six.
+\newblock Title of paper six.
+\newblock \emph{Journal of Research}, 3:\penalty0 11--20, 2022.
+
+\bibitem[Three(2021)]{article3}
+Author Three.
+\newblock Title of paper three.
+\newblock \emph{Journal of Research}, 2:\penalty0 1--10, 2021.
+
+\bibitem[Two(2020)]{article2}
+Author Two.
+\newblock Title of paper two.
+\newblock \emph{Journal of Research}, 1:\penalty0 11--20, 2020.
+
+\end{thebibliography}
