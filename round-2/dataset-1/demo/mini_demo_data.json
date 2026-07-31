@@ -1,0 +1,67 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_series_series_028",
+      "examples": [
+        {
+          "input": "[102.18017675056237, 108.85135555259977, 116.8085291422648]",
+          "output": "123.11574943472802",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.85135555259977, 116.8085291422648, 123.11574943472802]",
+          "output": "119.84355937664677",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_025",
+      "examples": [
+        {
+          "input": "[80.1034630735637, 75.4548936547913, 80.16409095455393]",
+          "output": "84.21730863299304",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[75.4548936547913, 80.16409095455393, 84.21730863299304]",
+          "output": "89.01115123230606",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_044",
+      "examples": [
+        {
+          "input": "[83.35935779357315, 89.4545037973269, 91.97023171489151]",
+          "output": "99.58699101443084",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[89.4545037973269, 91.97023171489151, 99.58699101443084]",
+          "output": "103.38698899382351",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        }
+      ]
+    }
+  ]
+}

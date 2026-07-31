@@ -1,0 +1,59 @@
+{
+  "metrics_agg": {
+    "overall_best_mse": 0.12803331778767393,
+    "overall_best_mae": 0.3105710372257479,
+    "overall_worst_mse": 0.36086836489173424,
+    "overall_worst_mae": 0.5311056512131787
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_time_series",
+      "examples": [
+        {
+          "input": "Time step 0 - Previous values for forecasting",
+          "output": "0.04967141530112327",
+          "predict_moving_average": "0.04967141530112327",
+          "eval_squared_error_ma": 0.0,
+          "eval_absolute_error_ma": 0.0,
+          "predict_naive_forecast": "0.04967141530112327",
+          "eval_squared_error_naive": 0.0,
+          "eval_absolute_error_naive": 0.0
+        },
+        {
+          "input": "Time step 1 - Previous values for forecasting",
+          "output": "0.4621209629199551",
+          "predict_moving_average": "0.04967141530112327",
+          "eval_squared_error_ma": 0.17011462933097898,
+          "eval_absolute_error_ma": 0.4124495476188318,
+          "predict_naive_forecast": "0.04967141530112327",
+          "eval_squared_error_naive": 0.17011462933097898,
+          "eval_absolute_error_naive": 0.4124495476188318
+        },
+        {
+          "input": "Time step 2 - Previous values for forecasting",
+          "output": "0.9019353320725978",
+          "predict_moving_average": "0.2558961891105392",
+          "eval_squared_error_ma": 0.4173665742391513,
+          "eval_absolute_error_ma": 0.6460391429620587,
+          "predict_naive_forecast": "0.4621209629199551",
+          "eval_squared_error_naive": 0.19343667931313707,
+          "eval_absolute_error_naive": 0.4398143691526427
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "evaluation_description": "Evaluation of 3-point moving average and naive last-value forecasts on a synthetic sine wave time series with noise.",
+    "comparison_summary": "The naive forecast (MSE: 0.1280, MAE: 0.3106) consistently outperformed the 3-point moving average (MSE: 0.3609, MAE: 0.5311) on this specific synthetic time series. The moving average smooths the dat...",
+    "model_metrics": {
+      "moving_average": {
+        "MSE": 0.36086836489173424,
+        "MAE": 0.5311056512131787
+      },
+      "naive_forecast": {
+        "MSE": 0.12803331778767393,
+        "MAE": 0.3105710372257479
+      }
+    }
+  }
+}
