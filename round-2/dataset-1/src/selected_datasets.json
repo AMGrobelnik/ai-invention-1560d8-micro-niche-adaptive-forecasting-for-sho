@@ -1,0 +1,1022 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_series_series_028",
+      "examples": [
+        {
+          "input": "[102.18017675056237, 108.85135555259977, 116.8085291422648]",
+          "output": "123.11574943472802",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.85135555259977, 116.8085291422648, 123.11574943472802]",
+          "output": "119.84355937664677",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[116.8085291422648, 123.11574943472802, 119.84355937664677]",
+          "output": "107.22308298839668",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[123.11574943472802, 119.84355937664677, 107.22308298839668]",
+          "output": "101.13938645917473",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[119.84355937664677, 107.22308298839668, 101.13938645917473]",
+          "output": "108.41024303792982",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.22308298839668, 101.13938645917473, 108.41024303792982]",
+          "output": "119.90906375332486",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[101.13938645917473, 108.41024303792982, 119.90906375332486]",
+          "output": "125.73265168582721",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.41024303792982, 119.90906375332486, 125.73265168582721]",
+          "output": "118.69115859635318",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[119.90906375332486, 125.73265168582721, 118.69115859635318]",
+          "output": "107.23123660310374",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[125.73265168582721, 118.69115859635318, 107.23123660310374]",
+          "output": "102.84731043875028",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[118.69115859635318, 107.23123660310374, 102.84731043875028]",
+          "output": "107.80963481960265",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 13,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.23123660310374, 102.84731043875028, 107.80963481960265]",
+          "output": "120.76215172165232",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 14,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_025",
+      "examples": [
+        {
+          "input": "[80.1034630735637, 75.4548936547913, 80.16409095455393]",
+          "output": "84.21730863299304",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[75.4548936547913, 80.16409095455393, 84.21730863299304]",
+          "output": "89.01115123230606",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.16409095455393, 84.21730863299304, 89.01115123230606]",
+          "output": "81.11338956801343",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[84.21730863299304, 89.01115123230606, 81.11338956801343]",
+          "output": "73.30926125738955",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[89.01115123230606, 81.11338956801343, 73.30926125738955]",
+          "output": "75.17342212557985",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[81.11338956801343, 73.30926125738955, 75.17342212557985]",
+          "output": "83.40899560367464",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[73.30926125738955, 75.17342212557985, 83.40899560367464]",
+          "output": "89.81986345452846",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[75.17342212557985, 83.40899560367464, 89.81986345452846]",
+          "output": "83.0298386215841",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[83.40899560367464, 89.81986345452846, 83.0298386215841]",
+          "output": "76.34835351356907",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[89.81986345452846, 83.0298386215841, 76.34835351356907]",
+          "output": "75.19137487122516",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_044",
+      "examples": [
+        {
+          "input": "[83.35935779357315, 89.4545037973269, 91.97023171489151]",
+          "output": "99.58699101443084",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[89.4545037973269, 91.97023171489151, 99.58699101443084]",
+          "output": "103.38698899382351",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[91.97023171489151, 99.58699101443084, 103.38698899382351]",
+          "output": "103.44281911944992",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[99.58699101443084, 103.38698899382351, 103.44281911944992]",
+          "output": "103.91138643226404",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[103.38698899382351, 103.44281911944992, 103.91138643226404]",
+          "output": "96.67906005883586",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[103.44281911944992, 103.91138643226404, 96.67906005883586]",
+          "output": "91.82683867359577",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[103.91138643226404, 96.67906005883586, 91.82683867359577]",
+          "output": "91.82683867359577",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[96.67906005883586, 91.82683867359577, 91.82683867359577]",
+          "output": "90.48136396133795",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[91.82683867359577, 91.82683867359577, 90.48136396133795]",
+          "output": "92.75692649505432",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[91.82683867359577, 90.48136396133795, 92.75692649505432]",
+          "output": "90.85945779940735",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[90.48136396133795, 92.75692649505432, 90.85945779940735]",
+          "output": "90.65669399119736",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 13,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[92.75692649505432, 90.85945779940735, 90.65669399119736]",
+          "output": "90.51943793193813",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 14,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[90.85945779940735, 90.65669399119736, 90.51943793193813]",
+          "output": "91.49532170293999",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 15,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[90.65669399119736, 90.51943793193813, 91.49532170293999]",
+          "output": "90.87453550388385",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 16,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_011",
+      "examples": [
+        {
+          "input": "[85.85003923826665, 84.26528558051847, 82.41110935859959]",
+          "output": "80.45794000769321",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[84.26528558051847, 82.41110935859959, 80.45794000769321]",
+          "output": "78.7120497205716",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[82.41110935859959, 80.45794000769321, 78.7120497205716]",
+          "output": "80.01152312848232",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.45794000769321, 78.7120497205716, 80.01152312848232]",
+          "output": "77.72965805667842",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[78.7120497205716, 80.01152312848232, 77.72965805667842]",
+          "output": "75.89669076254368",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.01152312848232, 77.72965805667842, 75.89669076254368]",
+          "output": "73.90601844631009",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[77.72965805667842, 75.89669076254368, 73.90601844631009]",
+          "output": "73.42448006496893",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[75.89669076254368, 73.90601844631009, 73.42448006496893]",
+          "output": "72.75348072424393",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[73.90601844631009, 73.42448006496893, 72.75348072424393]",
+          "output": "70.61825014490181",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[73.42448006496893, 72.75348072424393, 70.61825014490181]",
+          "output": "69.32067249939114",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[72.75348072424393, 70.61825014490181, 69.32067249939114]",
+          "output": "65.46483970980078",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 13,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[70.61825014490181, 69.32067249939114, 65.46483970980078]",
+          "output": "66.53691326051904",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 14,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[69.32067249939114, 65.46483970980078, 66.53691326051904]",
+          "output": "66.29633651339553",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 15,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_026",
+      "examples": [
+        {
+          "input": "[90.79272236655497, 92.35233482011473, 98.25565942392429]",
+          "output": "104.42983194393089",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[92.35233482011473, 98.25565942392429, 104.42983194393089]",
+          "output": "105.15605292141203",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[98.25565942392429, 104.42983194393089, 105.15605292141203]",
+          "output": "107.46509015000575",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[104.42983194393089, 105.15605292141203, 107.46509015000575]",
+          "output": "105.43825050285497",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[105.15605292141203, 107.46509015000575, 105.43825050285497]",
+          "output": "105.12123130424261",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.46509015000575, 105.43825050285497, 105.12123130424261]",
+          "output": "100.87304953161461",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[105.43825050285497, 105.12123130424261, 100.87304953161461]",
+          "output": "97.34380041339891",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[105.12123130424261, 100.87304953161461, 97.34380041339891]",
+          "output": "92.752457639144",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[100.87304953161461, 97.34380041339891, 92.752457639144]",
+          "output": "89.34368037909515",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[97.34380041339891, 92.752457639144, 89.34368037909515]",
+          "output": "89.11793174885952",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[92.752457639144, 89.34368037909515, 89.11793174885952]",
+          "output": "90.28947619723937",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 13,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[89.34368037909515, 89.11793174885952, 90.28947619723937]",
+          "output": "92.63729590875874",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 14,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[89.11793174885952, 90.28947619723937, 92.63729590875874]",
+          "output": "96.77545646317184",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 15,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[90.28947619723937, 92.63729590875874, 96.77545646317184]",
+          "output": "99.78336791395692",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 16,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[92.63729590875874, 96.77545646317184, 99.78336791395692]",
+          "output": "104.81916448710157",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 17,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_037",
+      "examples": [
+        {
+          "input": "[81.37169738774607, 79.85399717631515, 80.15544151105917]",
+          "output": "79.9137096934201",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[79.85399717631515, 80.15544151105917, 79.9137096934201]",
+          "output": "80.89898922108954",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.15544151105917, 79.9137096934201, 80.89898922108954]",
+          "output": "80.35125324745563",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[79.9137096934201, 80.89898922108954, 80.35125324745563]",
+          "output": "78.89999432494542",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.89898922108954, 80.35125324745563, 78.89999432494542]",
+          "output": "80.43858249134871",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.35125324745563, 78.89999432494542, 80.43858249134871]",
+          "output": "83.2788941167597",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[78.89999432494542, 80.43858249134871, 83.2788941167597]",
+          "output": "81.49882309663903",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.43858249134871, 83.2788941167597, 81.49882309663903]",
+          "output": "74.85755118322675",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[83.2788941167597, 81.49882309663903, 74.85755118322675]",
+          "output": "81.0044860253488",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_002",
+      "examples": [
+        {
+          "input": "[65.31956288964642, 67.86126745584201, 71.01174528980854]",
+          "output": "72.46272378475817",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[67.86126745584201, 71.01174528980854, 72.46272378475817]",
+          "output": "71.84884433887012",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[71.01174528980854, 72.46272378475817, 71.84884433887012]",
+          "output": "74.12659899736981",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[72.46272378475817, 71.84884433887012, 74.12659899736981]",
+          "output": "77.00542625526899",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[71.84884433887012, 74.12659899736981, 77.00542625526899]",
+          "output": "77.86907874016924",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[74.12659899736981, 77.00542625526899, 77.86907874016924]",
+          "output": "81.99599592018981",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[77.00542625526899, 77.86907874016924, 81.99599592018981]",
+          "output": "82.80635045436331",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[77.86907874016924, 81.99599592018981, 82.80635045436331]",
+          "output": "83.1251202614243",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[81.99599592018981, 82.80635045436331, 83.1251202614243]",
+          "output": "86.23792175139415",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[82.80635045436331, 83.1251202614243, 86.23792175139415]",
+          "output": "87.31514802859324",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[83.1251202614243, 86.23792175139415, 87.31514802859324]",
+          "output": "89.36547576377367",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 13,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_039",
+      "examples": [
+        {
+          "input": "[116.45887475153707, 118.22168373339989, 118.95818178490403]",
+          "output": "116.66435851253799",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[118.22168373339989, 118.95818178490403, 116.66435851253799]",
+          "output": "117.52502852207276",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[118.95818178490403, 116.66435851253799, 117.52502852207276]",
+          "output": "117.56820130274953",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[116.66435851253799, 117.52502852207276, 117.56820130274953]",
+          "output": "117.9048181122452",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[117.52502852207276, 117.56820130274953, 117.9048181122452]",
+          "output": "119.19178352315318",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[117.56820130274953, 117.9048181122452, 119.19178352315318]",
+          "output": "118.55822191128887",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[117.9048181122452, 119.19178352315318, 118.55822191128887]",
+          "output": "116.68493587935927",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[119.19178352315318, 118.55822191128887, 116.68493587935927]",
+          "output": "119.39388203104143",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[118.55822191128887, 116.68493587935927, 119.39388203104143]",
+          "output": "118.50752163781478",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[116.68493587935927, 119.39388203104143, 118.50752163781478]",
+          "output": "119.76504964220383",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[119.39388203104143, 118.50752163781478, 119.76504964220383]",
+          "output": "113.43306530445146",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 13,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[118.50752163781478, 119.76504964220383, 113.43306530445146]",
+          "output": "117.89189431835688",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 14,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[119.76504964220383, 113.43306530445146, 117.89189431835688]",
+          "output": "115.46794837382457",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 15,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_034",
+      "examples": [
+        {
+          "input": "[66.53509245454447, 67.04665256775124, 66.71769009374528]",
+          "output": "67.01171573428753",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[67.04665256775124, 66.71769009374528, 67.01171573428753]",
+          "output": "64.88755028218864",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[66.71769009374528, 67.01171573428753, 64.88755028218864]",
+          "output": "66.16086836121801",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[67.01171573428753, 64.88755028218864, 66.16086836121801]",
+          "output": "66.8163042365273",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[64.88755028218864, 66.16086836121801, 66.8163042365273]",
+          "output": "108.26637558496091",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[66.16086836121801, 66.8163042365273, 108.26637558496091]",
+          "output": "106.02720976262948",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[66.8163042365273, 108.26637558496091, 106.02720976262948]",
+          "output": "107.7843913791876",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.26637558496091, 106.02720976262948, 107.7843913791876]",
+          "output": "108.83163377390122",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[106.02720976262948, 107.7843913791876, 108.83163377390122]",
+          "output": "107.4466024295574",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.7843913791876, 108.83163377390122, 107.4466024295574]",
+          "output": "107.53045501389285",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 12,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.83163377390122, 107.4466024295574, 107.53045501389285]",
+          "output": "108.0756700073956",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 13,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.4466024295574, 107.53045501389285, 108.0756700073956]",
+          "output": "107.87233130932704",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 14,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.53045501389285, 108.0756700073956, 107.87233130932704]",
+          "output": "108.29985047562813",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 15,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.0756700073956, 107.87233130932704, 108.29985047562813]",
+          "output": "107.69762698945449",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 16,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.87233130932704, 108.29985047562813, 107.69762698945449]",
+          "output": "107.77770919572231",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 17,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_017",
+      "examples": [
+        {
+          "input": "[111.69547095172722, 108.6479723845802, 109.31217745247272]",
+          "output": "110.04404465937185",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.6479723845802, 109.31217745247272, 110.04404465937185]",
+          "output": "109.6732530703697",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[109.31217745247272, 110.04404465937185, 109.6732530703697]",
+          "output": "111.25575215686642",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[110.04404465937185, 109.6732530703697, 111.25575215686642]",
+          "output": "108.198569746975",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 6,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[109.6732530703697, 111.25575215686642, 108.198569746975]",
+          "output": "107.82950740728414",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 7,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[111.25575215686642, 108.198569746975, 107.82950740728414]",
+          "output": "109.11322942329572",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 8,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.198569746975, 107.82950740728414, 109.11322942329572]",
+          "output": "109.15745303316967",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 9,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[107.82950740728414, 109.11322942329572, 109.15745303316967]",
+          "output": "109.36868891289258",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 10,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[109.11322942329572, 109.15745303316967, 109.36868891289258]",
+          "output": "110.24691410320749",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 11,
+          "metadata_input_window_size": 3
+        }
+      ]
+    }
+  ]
+}

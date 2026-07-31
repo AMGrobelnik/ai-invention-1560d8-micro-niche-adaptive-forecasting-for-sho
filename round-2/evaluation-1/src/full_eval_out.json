@@ -1,0 +1,73 @@
+{
+  "datasets": [
+    {
+      "dataset": "Synthetic Time Series Forecast Evaluation",
+      "examples": [
+        {
+          "metadata_series_id": 0,
+          "input": "[1, 2, 3, 4, 5]",
+          "output": "[4, 5]",
+          "predict_naive": "[3, 3]",
+          "predict_ma": "[2.0, 2.0]",
+          "predict_adaptive": "[2.0, 4]",
+          "eval_mse_naive": 2.5,
+          "eval_mae_naive": 1.5,
+          "eval_mse_ma": 6.5,
+          "eval_mae_ma": 2.5,
+          "eval_mse_adaptive": 2.5,
+          "eval_mae_adaptive": 1.5
+        },
+        {
+          "metadata_series_id": 1,
+          "input": "[10, 8, 6, 4, 2]",
+          "output": "[4, 2]",
+          "predict_naive": "[6, 6]",
+          "predict_ma": "[8.0, 8.0]",
+          "predict_adaptive": "[6, 4]",
+          "eval_mse_naive": 10.0,
+          "eval_mae_naive": 3.0,
+          "eval_mse_ma": 26.0,
+          "eval_mae_ma": 5.0,
+          "eval_mse_adaptive": 4.0,
+          "eval_mae_adaptive": 2.0
+        },
+        {
+          "metadata_series_id": 2,
+          "input": "[1, 5, 1, 5, 1]",
+          "output": "[5, 1]",
+          "predict_naive": "[1, 1]",
+          "predict_ma": "[2.3333333333333335, 2.3333333333333335]",
+          "predict_adaptive": "[2.3333333333333335, 3.6666666666666665]",
+          "eval_mse_naive": 8.0,
+          "eval_mae_naive": 2.0,
+          "eval_mse_ma": 4.444444444444445,
+          "eval_mae_ma": 2.0,
+          "eval_mse_adaptive": 7.111111111111111,
+          "eval_mae_adaptive": 2.6666666666666665
+        },
+        {
+          "metadata_series_id": 3,
+          "input": "[100, 102, 101, 103, 104, 105]",
+          "output": "[103, 104, 105]",
+          "predict_naive": "[101, 101, 101]",
+          "predict_ma": "[101.0, 101.0, 101.0]",
+          "predict_adaptive": "[101, 103, 104]",
+          "eval_mse_naive": 9.666666666666666,
+          "eval_mae_naive": 3.0,
+          "eval_mse_ma": 9.666666666666666,
+          "eval_mae_ma": 3.0,
+          "eval_mse_adaptive": 2.0,
+          "eval_mae_adaptive": 1.3333333333333333
+        }
+      ]
+    }
+  ],
+  "metrics_agg": {
+    "avg_mse_naive": 7.541666666666666,
+    "avg_mae_naive": 2.375,
+    "avg_mse_ma": 11.652777777777777,
+    "avg_mae_ma": 3.125,
+    "avg_mse_adaptive": 3.9027777777777777,
+    "avg_mae_adaptive": 1.8749999999999998
+  }
+}

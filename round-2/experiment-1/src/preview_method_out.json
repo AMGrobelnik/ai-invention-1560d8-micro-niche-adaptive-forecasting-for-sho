@@ -1,0 +1,49 @@
+{
+  "datasets": [
+    {
+      "dataset": "Synthetic Time Series",
+      "examples": [
+        {
+          "input": "[1, 2, 3, 4, 5]",
+          "output": "[4, 5]",
+          "predict_naive": "[3, 4]",
+          "predict_ma": "[2.0, 3.0]",
+          "predict_adaptive": "[2.0, 4]",
+          "metadata_series_id": 0,
+          "metadata_naive_mse": 1.0,
+          "metadata_ma_mse": 4.0,
+          "metadata_adaptive_mse": 2.5
+        },
+        {
+          "input": "[10, 8, 6, 4, 2]",
+          "output": "[4, 2]",
+          "predict_naive": "[6, 4]",
+          "predict_ma": "[8.0, 6.0]",
+          "predict_adaptive": "[6, 4]",
+          "metadata_series_id": 1,
+          "metadata_naive_mse": 4.0,
+          "metadata_ma_mse": 16.0,
+          "metadata_adaptive_mse": 4.0
+        },
+        {
+          "input": "[1, 5, 1, 5, 1]",
+          "output": "[5, 1]",
+          "predict_naive": "[1, 5]",
+          "predict_ma": "[2.3333333333333335, 3.6666666666666665]",
+          "predict_adaptive": "[2.3333333333333335, 3.6666666666666665]",
+          "metadata_series_id": 2,
+          "metadata_naive_mse": 16.0,
+          "metadata_ma_mse": 7.111111111111111,
+          "metadata_adaptive_mse": 7.111111111111111
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "overall_metrics": {
+      "avg_mse_naive": 5.75,
+      "avg_mse_ma": 7.898148148148146,
+      "avg_mse_adaptive": 3.9027777777777777
+    }
+  }
+}

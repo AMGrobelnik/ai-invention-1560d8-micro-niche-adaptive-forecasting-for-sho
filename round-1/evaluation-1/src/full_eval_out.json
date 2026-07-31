@@ -1,0 +1,229 @@
+{
+  "metrics_agg": {
+    "overall_best_mse": 0.12803331778767393,
+    "overall_best_mae": 0.3105710372257479,
+    "overall_worst_mse": 0.36086836489173424,
+    "overall_worst_mae": 0.5311056512131787
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_time_series",
+      "examples": [
+        {
+          "input": "Time step 0 - Previous values for forecasting",
+          "output": "0.04967141530112327",
+          "predict_moving_average": "0.04967141530112327",
+          "predict_naive_forecast": "0.04967141530112327",
+          "eval_squared_error_ma": 0.0,
+          "eval_absolute_error_ma": 0.0,
+          "eval_squared_error_naive": 0.0,
+          "eval_absolute_error_naive": 0.0
+        },
+        {
+          "input": "Time step 1 - Previous values for forecasting",
+          "output": "0.4621209629199551",
+          "predict_moving_average": "0.04967141530112327",
+          "predict_naive_forecast": "0.04967141530112327",
+          "eval_squared_error_ma": 0.17011462933097898,
+          "eval_absolute_error_ma": 0.4124495476188318,
+          "eval_squared_error_naive": 0.17011462933097898,
+          "eval_absolute_error_naive": 0.4124495476188318
+        },
+        {
+          "input": "Time step 2 - Previous values for forecasting",
+          "output": "0.9019353320725978",
+          "predict_moving_average": "0.2558961891105392",
+          "predict_naive_forecast": "0.4621209629199551",
+          "eval_squared_error_ma": 0.4173665742391513,
+          "eval_absolute_error_ma": 0.6460391429620587,
+          "eval_squared_error_naive": 0.19343667931313707,
+          "eval_absolute_error_naive": 0.4398143691526427
+        },
+        {
+          "input": "Time step 3 - Previous values for forecasting",
+          "output": "1.1488874786474723",
+          "predict_moving_average": "0.471242570097892",
+          "predict_naive_forecast": "0.9019353320725978",
+          "eval_squared_error_ma": 0.45920262208316914,
+          "eval_absolute_error_ma": 0.6776449085495804,
+          "eval_squared_error_naive": 0.06098536269793831,
+          "eval_absolute_error_naive": 0.24695214657487452
+        },
+        {
+          "input": "Time step 4 - Previous values for forecasting",
+          "output": "0.8923579891827238",
+          "predict_moving_average": "0.8376479245466749",
+          "predict_naive_forecast": "1.1488874786474723",
+          "eval_squared_error_ma": 0.0029931911724806466,
+          "eval_absolute_error_ma": 0.05471006463604888,
+          "eval_squared_error_naive": 0.06580737896504452,
+          "eval_absolute_error_naive": 0.2565294894647485
+        },
+        {
+          "input": "Time step 5 - Previous values for forecasting",
+          "output": "0.5907990169947499",
+          "predict_moving_average": "0.9810602666342646",
+          "predict_naive_forecast": "0.8923579891827238",
+          "eval_squared_error_ma": 0.1523038429701956,
+          "eval_absolute_error_ma": 0.3902612496395147,
+          "eval_squared_error_naive": 0.09093781370706722,
+          "eval_absolute_error_naive": 0.3015589721879739
+        },
+        {
+          "input": "Time step 6 - Previous values for forecasting",
+          "output": "0.3225158718314732",
+          "predict_moving_average": "0.8773481616083153",
+          "predict_naive_forecast": "0.5907990169947499",
+          "eval_squared_error_ma": 0.30783886977901365,
+          "eval_absolute_error_ma": 0.5548322897768421,
+          "eval_squared_error_naive": 0.07197584597869981,
+          "eval_absolute_error_naive": 0.2682831451632767
+        },
+        {
+          "input": "Time step 7 - Previous values for forecasting",
+          "output": "-0.24795599628939252",
+          "predict_moving_average": "0.6018909593363156",
+          "predict_naive_forecast": "0.3225158718314732",
+          "eval_squared_error_ma": 0.7222398479862845,
+          "eval_absolute_error_ma": 0.8498469556257082,
+          "eval_squared_error_naive": 0.3254381523173104,
+          "eval_absolute_error_naive": 0.5704718681208657
+        },
+        {
+          "input": "Time step 8 - Previous values for forecasting",
+          "output": "-0.7826713492666268",
+          "predict_moving_average": "0.22178629751227685",
+          "predict_naive_forecast": "-0.24795599628939252",
+          "eval_squared_error_ma": 1.008935164172613,
+          "eval_absolute_error_ma": 1.0044576467789037,
+          "eval_squared_error_naive": 0.28592050870956837,
+          "eval_absolute_error_naive": 0.5347153529772344
+        },
+        {
+          "input": "Time step 9 - Previous values for forecasting",
+          "output": "-0.9151442615807339",
+          "predict_moving_average": "-0.23603715790818205",
+          "predict_naive_forecast": "-0.7826713492666268",
+          "eval_squared_error_ma": 0.46118645825852217,
+          "eval_absolute_error_ma": 0.6791071036725519,
+          "eval_squared_error_naive": 0.0175490724969811,
+          "eval_absolute_error_naive": 0.13247291231410707
+        },
+        {
+          "input": "Time step 10 - Previous values for forecasting",
+          "output": "-1.0157420352205766",
+          "predict_moving_average": "-0.6485905357122511",
+          "predict_naive_forecast": "-0.9151442615807339",
+          "eval_squared_error_ma": 0.13480022359121194,
+          "eval_absolute_error_ma": 0.3671514995083255,
+          "eval_squared_error_naive": 0.010119912061293026,
+          "eval_absolute_error_naive": 0.10059777363984268
+        },
+        {
+          "input": "Time step 11 - Previous values for forecasting",
+          "output": "-0.7822968860301572",
+          "predict_moving_average": "-0.9045192153559792",
+          "predict_naive_forecast": "-1.0157420352205766",
+          "eval_squared_error_ma": 0.014938297785829687,
+          "eval_absolute_error_ma": 0.122222329325822,
+          "eval_squared_error_naive": 0.054496637680537155,
+          "eval_absolute_error_naive": 0.23344514919041937
+        },
+        {
+          "input": "Time step 12 - Previous values for forecasting",
+          "output": "-0.3005032420480803",
+          "predict_moving_average": "-0.9043943942771558",
+          "predict_naive_forecast": "-0.7822968860301572",
+          "eval_squared_error_ma": 0.3646845237405605,
+          "eval_absolute_error_ma": 0.6038911522290755,
+          "eval_squared_error_naive": 0.23212511538152827,
+          "eval_absolute_error_naive": 0.4817936439820769
+        },
+        {
+          "input": "Time step 13 - Previous values for forecasting",
+          "output": "-0.026733434185045674",
+          "predict_moving_average": "-0.699514054432938",
+          "predict_naive_forecast": "-0.3005032420480803",
+          "eval_squared_error_ma": 0.45263376298113867,
+          "eval_absolute_error_ma": 0.6727806202478923,
+          "eval_squared_error_naive": 0.07494990769736289,
+          "eval_absolute_error_naive": 0.2737698078630346
+        },
+        {
+          "input": "Time step 14 - Previous values for forecasting",
+          "output": "0.4417209294383644",
+          "predict_moving_average": "-0.3698445207544277",
+          "predict_naive_forecast": "-0.026733434185045674",
+          "eval_squared_error_ma": 0.6586384799466292,
+          "eval_absolute_error_ma": 0.811565450192792,
+          "eval_squared_error_naive": 0.21944949079781412,
+          "eval_absolute_error_naive": 0.4684543636234101
+        },
+        {
+          "input": "Time step 15 - Previous values for forecasting",
+          "output": "0.8595445737309604",
+          "predict_moving_average": "0.03816141773507945",
+          "predict_naive_forecast": "0.4417209294383644",
+          "eval_squared_error_ma": 0.6746702889537537,
+          "eval_absolute_error_ma": 0.821383155995881,
+          "eval_squared_error_naive": 0.1745765977299458,
+          "eval_absolute_error_naive": 0.417823644292596
+        },
+        {
+          "input": "Time step 16 - Previous values for forecasting",
+          "output": "0.8953013809732274",
+          "predict_moving_average": "0.42484402299475965",
+          "predict_naive_forecast": "0.8595445737309604",
+          "eval_squared_error_ma": 0.22133012567608018,
+          "eval_absolute_error_ma": 0.47045735797846777,
+          "eval_squared_error_naive": 0.0012785492641606408,
+          "eval_absolute_error_naive": 0.03575680724226704
+        },
+        {
+          "input": "Time step 17 - Previous values for forecasting",
+          "output": "0.8685912115220558",
+          "predict_moving_average": "0.7321889613808508",
+          "predict_naive_forecast": "0.8953013809732274",
+          "eval_squared_error_ma": 0.01860557384358386,
+          "eval_absolute_error_ma": 0.136402250141205,
+          "eval_squared_error_naive": 0.0007134331521103038,
+          "eval_absolute_error_naive": 0.02671016945117166
+        },
+        {
+          "input": "Time step 18 - Previous values for forecasting",
+          "output": "0.3851449854849524",
+          "predict_moving_average": "0.8744790554087478",
+          "predict_naive_forecast": "0.8685912115220558",
+          "eval_squared_error_ma": 0.2394478319881859,
+          "eval_absolute_error_ma": 0.4893340699237954,
+          "eval_squared_error_naive": 0.23372025346951802,
+          "eval_absolute_error_naive": 0.48344622603710335
+        },
+        {
+          "input": "Time step 19 - Previous values for forecasting",
+          "output": "-0.1412303701335288",
+          "predict_moving_average": "0.7163458593267452",
+          "predict_naive_forecast": "0.3851449854849524",
+          "eval_squared_error_ma": 0.7354369893353006,
+          "eval_absolute_error_ma": 0.857576229460274,
+          "eval_squared_error_naive": 0.2770710150024825,
+          "eval_absolute_error_naive": 0.5263753556184811
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "evaluation_description": "Evaluation of 3-point moving average and naive last-value forecasts on a synthetic sine wave time series with noise.",
+    "comparison_summary": "The naive forecast (MSE: 0.1280, MAE: 0.3106) consistently outperformed the 3-point moving average (MSE: 0.3609, MAE: 0.5311) on this specific synthetic time series. The moving average smooths the data but can lag behind changes, whereas the naive forecast adapts instantly to the last observed value.",
+    "model_metrics": {
+      "moving_average": {
+        "MSE": 0.36086836489173424,
+        "MAE": 0.5311056512131787
+      },
+      "naive_forecast": {
+        "MSE": 0.12803331778767393,
+        "MAE": 0.3105710372257479
+      }
+    }
+  }
+}

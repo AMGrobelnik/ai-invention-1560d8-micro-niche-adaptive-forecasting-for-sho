@@ -1,0 +1,294 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_series_series_028",
+      "examples": [
+        {
+          "input": "[102.18017675056237, 108.85135555259977, 116.8085291422648]",
+          "output": "123.11574943472802",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.85135555259977, 116.8085291422648, 123.11574943472802]",
+          "output": "119.84355937664677",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[116.8085291422648, 123.11574943472802, 119.84355937664677]",
+          "output": "107.22308298839668",
+          "metadata_series_id": "series_028",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_025",
+      "examples": [
+        {
+          "input": "[80.1034630735637, 75.4548936547913, 80.16409095455393]",
+          "output": "84.21730863299304",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[75.4548936547913, 80.16409095455393, 84.21730863299304]",
+          "output": "89.01115123230606",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.16409095455393, 84.21730863299304, 89.01115123230606]",
+          "output": "81.11338956801343",
+          "metadata_series_id": "series_025",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_044",
+      "examples": [
+        {
+          "input": "[83.35935779357315, 89.4545037973269, 91.97023171489151]",
+          "output": "99.58699101443084",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[89.4545037973269, 91.97023171489151, 99.58699101443084]",
+          "output": "103.38698899382351",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[91.97023171489151, 99.58699101443084, 103.38698899382351]",
+          "output": "103.44281911944992",
+          "metadata_series_id": "series_044",
+          "metadata_pattern_type": "combined",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_011",
+      "examples": [
+        {
+          "input": "[85.85003923826665, 84.26528558051847, 82.41110935859959]",
+          "output": "80.45794000769321",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[84.26528558051847, 82.41110935859959, 80.45794000769321]",
+          "output": "78.7120497205716",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[82.41110935859959, 80.45794000769321, 78.7120497205716]",
+          "output": "80.01152312848232",
+          "metadata_series_id": "series_011",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_026",
+      "examples": [
+        {
+          "input": "[90.79272236655497, 92.35233482011473, 98.25565942392429]",
+          "output": "104.42983194393089",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[92.35233482011473, 98.25565942392429, 104.42983194393089]",
+          "output": "105.15605292141203",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[98.25565942392429, 104.42983194393089, 105.15605292141203]",
+          "output": "107.46509015000575",
+          "metadata_series_id": "series_026",
+          "metadata_pattern_type": "oscillatory",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_037",
+      "examples": [
+        {
+          "input": "[81.37169738774607, 79.85399717631515, 80.15544151105917]",
+          "output": "79.9137096934201",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[79.85399717631515, 80.15544151105917, 79.9137096934201]",
+          "output": "80.89898922108954",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[80.15544151105917, 79.9137096934201, 80.89898922108954]",
+          "output": "80.35125324745563",
+          "metadata_series_id": "series_037",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_002",
+      "examples": [
+        {
+          "input": "[65.31956288964642, 67.86126745584201, 71.01174528980854]",
+          "output": "72.46272378475817",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[67.86126745584201, 71.01174528980854, 72.46272378475817]",
+          "output": "71.84884433887012",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[71.01174528980854, 72.46272378475817, 71.84884433887012]",
+          "output": "74.12659899736981",
+          "metadata_series_id": "series_002",
+          "metadata_pattern_type": "linear_trend",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_039",
+      "examples": [
+        {
+          "input": "[116.45887475153707, 118.22168373339989, 118.95818178490403]",
+          "output": "116.66435851253799",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[118.22168373339989, 118.95818178490403, 116.66435851253799]",
+          "output": "117.52502852207276",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[118.95818178490403, 116.66435851253799, 117.52502852207276]",
+          "output": "117.56820130274953",
+          "metadata_series_id": "series_039",
+          "metadata_pattern_type": "volatility_shift",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_034",
+      "examples": [
+        {
+          "input": "[66.53509245454447, 67.04665256775124, 66.71769009374528]",
+          "output": "67.01171573428753",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[67.04665256775124, 66.71769009374528, 67.01171573428753]",
+          "output": "64.88755028218864",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[66.71769009374528, 67.01171573428753, 64.88755028218864]",
+          "output": "66.16086836121801",
+          "metadata_series_id": "series_034",
+          "metadata_pattern_type": "step_change",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_series_series_017",
+      "examples": [
+        {
+          "input": "[111.69547095172722, 108.6479723845802, 109.31217745247272]",
+          "output": "110.04404465937185",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 3,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[108.6479723845802, 109.31217745247272, 110.04404465937185]",
+          "output": "109.6732530703697",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 4,
+          "metadata_input_window_size": 3
+        },
+        {
+          "input": "[109.31217745247272, 110.04404465937185, 109.6732530703697]",
+          "output": "111.25575215686642",
+          "metadata_series_id": "series_017",
+          "metadata_pattern_type": "flat",
+          "metadata_forecasting_point_index": 5,
+          "metadata_input_window_size": 3
+        }
+      ]
+    }
+  ]
+}
